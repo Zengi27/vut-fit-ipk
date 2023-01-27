@@ -1,0 +1,14 @@
+Varianta ZETA: Sniffer paketov
+Tento program je sieťový analyzátor
+
+Podporuje TCP, UDP, ICMP a ARP pakety
+taktiež podporuje IPv6 adresy
+
+príklad spustenia: 
+sudo ./ipk-sniffer -i wlo1 --tcp -p 443
+
+Obsah archívu: 
+Makefile
+ipk-sniffer.c
+README
+manual.pdf
